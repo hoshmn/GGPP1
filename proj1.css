@@ -1,0 +1,95 @@
+html, body {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+}
+
+.header img {
+	height: 200px;
+	width: 600px;
+	display: block;
+	margin: 30px auto 0 auto;
+}
+
+body {
+	background: #CCCCCC url(images/numbers.png) top left repeat;
+}
+
+h1 {
+	color: #8042B5;
+	background: #CCCCCC;
+	font-size: 26px;
+	font-family: helvetica, serif;
+	margin: 40px 20px 30px 20px;
+	padding: 10px;
+	border: 3px solid #CC22FF;
+}
+
+h2 {
+	color: #111111;
+	background: rgba(204,204,204,.5);
+	font-weight: 900;
+	text-align: center;
+	font-size: 24px;
+	font-family: Verdana, sans-serif;
+	padding: 15px;
+	margin: 0 30px 80px 30px;
+}
+
+h2:hover {
+	text-transform: uppercase;
+	color: #EE9900;
+	background: rgba(128,66,181,.7);
+	font-size: 30px;	
+}
+
+form {
+	text-align: center;
+}
+
+label {
+	background: rgba(204,204,204,.8);
+	color: #8042B5;
+	font-size: 24px;
+	;
+}
+
+input[type="text"] {
+	display: block;
+	margin: 0 auto 10px auto;
+	padding: 12px;
+	text-align: center;
+	width: 50px;
+	font-size: 28px;
+}
+
+input[type="submit"] {
+
+	margin: 0 auto 10px auto;
+	padding: 10px;
+	border: 2px solid #000000;
+}
+
+input[value="GUESS"] {
+	display:block;
+}
+
+input[value="GUESS"]:hover {
+	background: #CC22FF;
+	font-weight: bold;
+}
+
+input[value="Get a Clue"]:hover {
+	background: #FFCC22;
+	font-weight: bold;
+	
+}
+
+input[value="Play Again"]:hover {
+	background: #22FFCC;
+	font-weight: bold;
+	
+}
+
