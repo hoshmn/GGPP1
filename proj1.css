@@ -17,6 +17,17 @@ body {
 	background: #CCCCCC url(images/numbers.png) top left repeat;
 }
 
+body.lost {
+	background: #CCCCCC url(images/trump.png) top left repeat;
+}
+body.won {
+	background: #CCCCCC url(images/lebron.jpg) top left repeat;
+}
+
+.hide {
+	display: none;
+}
+
 h1 {
 	color: #8042B5;
 	background: #CCCCCC;
@@ -49,16 +60,24 @@ form {
 	text-align: center;
 }
 
+p {
+	color: #111111;
+	font-size: 36px;
+	font-weight: bolder;
+}
+
 label {
 	background: rgba(204,204,204,.8);
 	color: #8042B5;
 	font-size: 24px;
-	;
+	padding: 12px;
+	margin: 20px;
+	
 }
 
 input[type="text"] {
 	display: block;
-	margin: 0 auto 10px auto;
+	margin: 15px auto;
 	padding: 12px;
 	text-align: center;
 	width: 50px;
@@ -70,6 +89,7 @@ input[type="submit"] {
 	margin: 0 auto 10px auto;
 	padding: 10px;
 	border: 2px solid #000000;
+	font-size: 1em;
 }
 
 input[value="GUESS"] {

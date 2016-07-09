@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="proj1.css">
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript" src="guessingGame.js"></script>
 	</head>
 
 	<body>
@@ -14,13 +16,17 @@
 			
 			<h1>Introducing the most thought-provoking game yet known to man...</h1>
 			<h2>Guess the number!!</h2>
+		</div>
 
+		<div class="game-interface">
 			<form> 
-				<label type="label" for="your-guess">What number am I thinking of right... NOW??</label>
-				<input type="text" id="your-guess">
-				<input type="submit" value="GUESS">
-				<input type="submit" value="Get a Clue">
-				<input type="submit" value="Play Again">
+				<span>
+					<label type="label" id="prompt" for="your-guess">What number am I thinking of right... NOW??</label>
+					<input type="text" id="your-guess">
+					<input type="submit" id="set-guess" value="GUESS">
+					<input type="submit" id="clue" value="Get a Clue">
+				</span>
+				<input type="submit" id="reset" value="Play Again">
 			</form>
 		</div>
 	</body>
